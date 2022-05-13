@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- 06. Icono de pagina -->
+  		<link rel="shortcut icon" href="imagenes/icono.png" />
+
+		<!-- 02. Agregar meta -->
+		<meta charset="UTF-8">	
+		<!-- 05 Título de la pestaña del navegador -->
+		<title>La CDMX ROSA.</title>
+
+		<!-- 02. Agregar meta -->
+		<meta name="viewport" content="width=device-width, user-scalable=no, inicial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<!-- 03.1 Agregando el script de Bootstrap --> 
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<!-- 07 Direccionar los estilos css-->
+		<link rel="stylesheet" type="text/css" href="estilos/estilosindex.css"><!-- Estilos generales -->
+		<link rel="stylesheet" type="text/css" href="estilos/estilosnavbartop.css"><!-- estilos para el encabezado -->
+		<link rel="stylesheet" type="text/css" href="estilos/estilosarticulos.css"><!-- estilos para el articulo -->
+		<link rel="stylesheet" type="text/css" href="estilos/estilosnavbarmenu.css"><!-- Estilos barra navegacion -->
+		<link rel="stylesheet" type="text/css" href="estilos/estilosthumbnails.css"><!-- Estilos miniaturas -->
+		<link rel="stylesheet" type="text/css" href="estilos/estiloservicios.css"><!-- Estilos Servicios -->
+		<link rel="stylesheet" type="text/css" href="estilos/estilospie.css"><!--Encabezado piepagina-->
+		<link rel="stylesheet" type="text/css" href="estilos/estilosmigas.css"><!--Migas de pan-->
+		<link rel="stylesheet" type="text/css" href="estilos/estilosquienesHIS.css"><!-- Publicaciones -->
+		<link rel="stylesheet" type="text/css" href="estilos/lightbox.css" media="screen" /><!--Lighbox efecto-->
+
+									<!-- BBBBBBBBBBBAAAAAAAARRRRRRRRRRAAAAAAAAA    EEEEENNNNNCCCCAAAABBBEEEZZZAAAADDDDOOOO -->
+
+		<header id="header"> <!-- Id: encabezado -->
+			<!-- barra superior de redes sociales -->
+        	<div class="top-bar">	<!-- Barra superior -->
+            	<div class="container"> <!-- contenedor de Número telefonico, icono redes sociales y buscador-->
+            		<pseudo: before>
+                	<div class="row"> <!-- fila; inicia con el numero telefonico continua con iconos y buscador -->
+                	<pseudo: before> 
+                    	<div class="col-sm-6 col-xs-4"> <!-- numero telefonico -->
+                        	<div class="top-number" >
+                        		<p>
+                        			<i class="fa fa-phone-square" style="width:20px; height:17px">
+                        				<pseudo: before><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                        			</i>  
+                        			01(55)43.58.99.36 
+                        		</p>
+                        	</div>
+                    	</div>
+                    	<div class="col-sm-6 col-xs-8"> <!-- iconos redes sociales -->
+                       		<div class="social">
+                            		<ul class="social-share">
+                                		<li>
+                                   			<a href="https://www.facebook.com/Hogar-Vida-Mujer-AC-380704961965608/"> 
+                                				<i class="fa fa-facebook">
+                                					<img src="imagenes/LFB.png" style="width:10px; height:17px"> <pseudo: before>
+                                				</i>
+                                			</a>
+                                		</li>
+                                		<li>
+                                			<a href="https://twitter.com/HogarVidaMujer">
+                         	         			<i class="fa fa-twitter">
+                                					<img src="imagenes/LT.png" style="width:10px; height:17px"> <pseudo: before>
+                                				</i>
+                                			</a>
+                                		</li>
+                                		<li>
+                                			<a href="https://plus.google.com/109899728249921038736/about">
+                                				<i class="fa fa-linkedin">
+                                					<img src="imagenes/LG.png" style="width:20px; height:20px"> <pseudo: before>
+                                				</i>
+                                			</a>
+                                		</li> 
+                                		<li>
+                                			<a href="https://www.youtube.com/channel/UCo-dImSrbQTZjKYs_J8B5Zg">
+                                				<i class="fa fa-dribbble">
+                                					<img src="imagenes/LY.png" style="width:20px; height:20px"> <pseudo: before>
+                                				</i>
+                                			</a>
+                                		</li>
+                                		<li>
+                                			<a href="hogarvidamujerac@hotmail.com">
+                                				<i class="fa fa-skype">
+                                					<img src="imagenes/LEmail.png" style="width:20px; height:17px"> <pseudo: before>
+                                				</i>
+                                			</a>
+                                		</li>
+                            		<li class="search"> <!-- barra de busqueda -->
+                                		<form role="form" method="get" action="http://www.google.com/search">
+                                    		<input type="text" name="q" class="search-form" autocomplete="off" placeholder="Buscar" maxlength="255" value=""/>
+                                    			<i class="fa fa-search">
+                                    				<pseudo: before><span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                    			</i>
+		                                </form>
+        		                   	</li> <!-- class search-->
+
+                            		</ul>
+                       	   </div> <!-- class social-->
+                    	</div>
+                	</div>
+            	</div><!--/.container-->
+        	</div><!--/.top-bar-->
+        </header><!--/header-->
+
+	</head>
+
+	<body>
+	<br>
+						<!--    EEENNNCCCAAABBBEEEZZZAAADDDOOO   DDDEEELLLL  BBBBOOOODDDYYY (LOGOTIPO, NOMBRE Y CINTAS) -->
+
+		<!-- 08 Encabezado del cuerpo -->
+		<header> 
+		  <!-- 08.1   creando clases "container-fluid" y clase "row"-->
+		  <!-- Se utiliza la clase "container" para centrar los elementos, en caso de quererlo a todo lo largo del header usar "container-fluid" -->
+		  <div id="logotipo" class="container-fluid">
+		  	
+				<div class="row">
+					<!-- 08.2  dividiendo la fila (row) en 3 columnas -->
+					<!-- 08.2.1 Utilizamos el tamaño largo con dimensiones 2, 6, 4 -->
+					<div class="col-xs-12 col-sm-2 col-lg-2"align="center">
+						<a href="index.html"><img src="imagenes/LOGOV4.png" class="img-responsive" alt="logo" style="margin: 0; padding: 0; border: 0;"></a>
+					</div>
+
+
+					<div class="hidden-xs col-xs-12 col-sm-5 col-lg-6"> 
+						<img src="imagenes/textofinal2.gif"class="img-responsive" alt="textoanimado" style="margin: 0; padding: 0; border: 0;">
+					</div>
+
+					<div class="hidden-xs col-xs-12 col-sm-5 col-lg-4">
+						<img src="imagenes/MñoRosa2.png"class="img-responsive" alt="textoanimado" style="margin: 0; padding: 0; border: 0;">
+					</div>
+				</div> <!-- <div> clase row-->
+		  </div><!-- div id="logotipo" -->
+		</header>
+		
+
+										<!-- NNNNN AAAAA VVVVV EEEEE GGGGG  AAAAAA DDDDD OOOOO RRRRR -->
+
+		<!-- 09 Encabezado del cuerpo -->
+		<nav id="navegar">
+
+			<!--div id="menu" class="container"-->
+				<!--div class="dropdown"-->
+
+			<div class="container-fluid">
+					
+					<header>
+						<!--div class="btn-group btn-group-justified" role="group" aria-label="NAVEGADOR"-->
+						<nav class="navbar navbar-barrbtndespl"> <!--  BARRA DE MENU INFERIOR  -->
+						<!-- para fijar la barra arriba <nav class="navbar navbar-default navbar-fixed-top"> en caso de que sea abajo use bottom-->
+							<div class="container-fluid">
+
+								<!-- BOTON -->
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed navbar-menunavegar" data-toggle="collapse" data-target="#navbar-1">
+										<span class="sr-only">Menu</span> <!-- Solo en dispositivos de lectura se visualice un boton -->
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+									<a class="navbar-brand" href="index.html"> <!-- Icono de la barra -->
+										<img alt="IconoHVMAC" src="imagenes/miniicono.png">
+									</a>
+								</div>	<!-- div class NAVBAR-HEADER -->
+
+								<!-- BOTONES DESPLEGABLES -->
+								<div class="collapse navbar-collapse" id="navbar-1">
+									<ul class="nav navbar-nav ">
+										<li>								
+											<a class="navbar-btndespl " href="index.html">
+												Inicio
+											</a>
+										</li>
+										
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle navbar-btndespl" data-toggle="dropdown" role="button">
+												Quienes somos <span class="caret"></span>
+											</a>
+											<ul class="submen dropdown-menu">
+						    					<!-- Encabezado de las secciones Secciones -->
+												<li role="presentation" class="hidden-xs dropdown-header">HVMAC
+												</li>
+
+												<!-- Línea divisioria-->
+												<li class="divider hidden-xs">
+												</li>
+									
+												<!-- Secciones activa-->
+												<li class="item" role="presentation"><a role="item" href="QS-History.html">Historia</a>
+												</li>
+												<li class="item" role="presentation"><a role="item" href="QS-Mision.html">Misión</a>
+												</li>
+												<li class="item" role="presentation"><a role="item" href="QS-Vision.html">Visión</a>
+												</li>
+												<li class="item" role="presentation"><a role="item" href="QS-Valores.html">Valores</a>
+												</li>
+												<li class="item" role="presentation"><a role="item" href="QS-Objetivo.html">Objetivo</a>
+												</li>
+												<li class="disabled item" role="presentation"><a role="item" href="#">Directorio</a>
+												</li>
+												<li class="item" role="presentation"><a role="item" href="QS-TonyR.html">Tony Ruiz "Una guerrera más"</a>
+												</li>
+
+												<!-- Secciones desactivada -->
+												<li role="presentation" class="disabled item"><a role="item" href="#">Contacto </a>
+												</li>
+
+												<!-- Línea divisioria final (solo visible en celular)-->
+												<li class="divider visible-xs">
+												</li>
+
+	    									</ul>
+										</li>
+										
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle navbar-btndespl " data-toggle="dropdown" role="button">
+												Cáncer de Mama <span class="caret"></span>
+											</a>
+											    <ul class="submen dropdown-menu">
+									    		<!-- Encabezado de las secciones Secciones -->
+													<li role="presentation" class="hidden-xs dropdown-header">Conociendo la enfermedad
+													</li>
+
+												<!-- Línea divisioria-->
+												<li class="divider hidden-xs">
+												</li>
+									
+												<!-- Secciones activa-->
+												<li class="item" role="presentation"><a role="item" href="CM-CancerM.html">¿Qué es el cáncer de mama?</a>
+												</li>
+												<li class="item" role="presentation"><a role="item" href="CM-Factores.html">Factores de riesgo</a>
+												</li>
+												<li class="item" role="presentation"><a role="item" href="CM-Prev.html">Prevención</a>
+												</li>
+												<li class="item" role="presentation"><a role="item" href="CM-Sintomas.html">Síntomas</a>
+												</li>
+												<!-- Secciones desactivada -->
+												<li role="presentation" class="disabled item"><a role="item" href="#">Cifras</a>
+												</li>
+												<!-- Línea divisioria final (solo visible en celular)-->
+												<li class="divider visible-xs">
+												</li>
+
+	    									</ul>
+										</li>
+
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle navbar-btndespl " data-toggle="dropdown" role="button">
+												Eventos <span class="caret"></span>
+											</a>
+										    <ul class="submen dropdown-menu">
+									   		<!-- Encabezado de las secciones Secciones -->
+												<li role="presentation" class="hidden-xs dropdown-header">Eventos de Recaudación de fondos
+												</li>
+												<!-- Línea divisioria-->
+												<li class="divider hidden-xs">
+												</li>
+												<!-- Secciones activa-->
+												<li class="item" role="presentation"><a role="item" href="EV-2013.html">2013</a>
+												</li>
+												<li class="item" role="presentation"><a role="item" href="EV-2014.html">2014</a>
+												</li>
+					
+												<!-- Secciones desactivada -->
+												<li role="presentation" class="disabled item"><a role="item" href="#">2015</a>
+												</li>
+												<!-- Línea divisioria final (solo visible en celular)-->
+												<li class="divider visible-xs">
+												</li>
+	    									</ul>
+										</li>
+
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle navbar-btndespl " data-toggle="dropdown" role="button">
+												Publicaciones <span class="caret"></span>
+											</a>
+						    				<ul class="submen dropdown-menu">
+						    					<!-- Encabezado de las secciones Secciones -->
+												<li role="presentation" class="hidden-xs dropdown-header">Artículos sobre el Cáncer de Mama
+												</li>
+
+												<!-- Línea divisioria-->
+												<li class="divider hidden-xs">
+												</li>
+									
+												<!-- Secciones activa-->
+												<li class="item" role="presentation"><a role="item" href="PU-SoyRosa.html">Yo soy Rosa!</a>
+												</li>
+												<li class="item" role="presentation"><a role="item" href="Pu-Cifras.html">El cáncer en cifras</a>
+												</li>
+												<li class="item" role="presentation"><a role="item" href="PU-Liston.html">Historia del listón rosa</a>
+												</li>
+												<li class="disabled item" role="presentation"><a role="item" href="#">Tasa de mortalidad</a>
+												</li>
+												<li class="disabled item" role="presentation"><a role="item" href="#">Caricaturas apoyando la campaña</a>
+												</li>
+									
+												<!-- Secciones desactivada -->
+												<li role="presentation" class="disabled item"><a role="item" href="#">Próximamente</a>
+												</li>
+												<!-- Línea divisioria final (solo visible en celular)-->
+												<li class="divider visible-xs">
+												</li>
+	    									</ul>
+										</li>
+
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle navbar-btndespl " data-toggle="dropdown" role="button">
+												Octubre Rosa <span class="caret"></span>
+											</a>
+						    				<ul class="submen dropdown-menu">
+						    					<!-- Encabezado de las secciones Secciones -->
+												<li role="presentation" class="hidden-xs dropdown-header">Mes del Cáncer de Mama
+												</li>
+
+												<!-- Línea divisioria-->
+												<li class="divider hidden-xs">
+												</li>
+									
+												<!-- Secciones activa-->
+												<li class="item" role="presentation"><a role="item" href="OC-19Oct.html">19 Octubre</a>
+												</li>												
+												<li class="active item" role="presentation"><a role="item" href="#">La CDMX Rosa</a>
+												</li>
+												<li class="item" role="presentation"><a role="item" href="OC-Libro.html">El libro rosa</a>
+												</li>
+												<li class="item" role="presentation"><a role="item" href="OC-Dep.html">Mundo Deportivo</a>
+												</li>
+												<li class="item" role="presentation"><a role="item" href="OC-IMSS.html">Carrera-Caminata IMSS</a>
+												</li>
+									
+												<!-- Secciones desactivada -->
+												<li role="presentation" class="disabled item"><a role="item" href="#">Próximamente</a>
+												</li>
+												<!-- Línea divisioria final (solo visible en celular)-->
+												<li class="divider visible-xs">
+												</li>
+
+	    									</ul>
+										</li>
+
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle navbar-btndespl " data-toggle="dropdown" role="button">
+												Campañas de apoyo <span class="caret"></span>
+											</a>
+						    				<ul class="submen dropdown-menu">
+						    					<!-- Encabezado de las secciones Secciones -->
+												<li role="presentation" class="hidden-xs dropdown-header">Apoyándo a la sociedad
+												</li>
+
+												<!-- Línea divisioria-->
+												<li class="divider hidden-xs">
+												</li>
+									
+												<!-- Secciones activa-->
+												<li class="item" role="presentation"><a role="item" href="CA-Mastografia.html">Mastografías gratis</a>
+												</li>
+												<li class="item" role="presentation"><a role="item" href="CA-Recons.html">Reconstrucción de Mamas</a>
+												</li>
+												<li class="disabled item" role="presentation"><a role="item" href="#">Medicobus</a>
+												</li>
+									
+												<!-- Secciones desactivada -->
+												<li role="presentation" class="disabled item"><a role="item" href="#">Próximamente</a>
+												</li>
+												<!-- Línea divisioria final (solo visible en celular)-->
+												<li class="divider visible-xs">
+												</li>
+
+	    									</ul>
+										</li>
+
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle navbar-btndespl " data-toggle="dropdown" role="button">
+											Contáctanos <span class="caret"></span>
+										</a>
+						    			<ul class="submen dropdown-menu">
+						    				<!-- Encabezado de las secciones Secciones -->
+											<li role="presentation" class="hidden-xs dropdown-header">¿Cómo comunicarnos contigo?
+											</li>
+											<!-- Línea divisioria-->
+											<li class="divider hidden-xs">
+											</li>
+											<!-- Secciones activa-->
+											<li class="item" role="presentation"><a role="item" href="Contacto.html">Contáctanos</a>
+											</li>
+										</ul>
+									</li>
+									</ul>					
+								</div>
+							</div>
+						</nav>
+						<!--/div-->
+					</header>
+			</div>
+
+
+			<!--/div-->
+		</nav>    
+														<!-- Migas de pan -->
+	<div class="container-fluid">
+		<br>
+		<div id="migas">
+			<div class="col-sm-6 col-md-7 col-lg-10">
+				<ol class="breadcrumb breadcrumb-migas">
+					<li>
+						<a href="index.html">Inicio</a>
+					</li>
+					<li>
+						<a href="#">Octubre Rosa</a>
+					</li>
+					<li class="Active">
+						<strong> La Ciudad de México iluminada en Rosa </strong>
+					</li>
+				</ol>
+			</div>	
+		</div>	
+	</div>
+
+<div class="container">
+<br> 
+	<section class="main row">
+		<div class="History">
+				<article class="col-xs-12 col-sm-12 text-justify">
+			   		<br> 
+		   	   		<h4>La Ciudad de México se ilumina Rosa.</h4>
+		   	   			<p>
+		   	   				<h5>HVMAC. <small> Octubre 2015. </small></h5>
+		   	   			<p>
+		   	   			<br>
+		   	   				<h5> <small> </small></h5>
+		   	   				Como parte de la campaña <strong>“Iluminemos la ciudad de rosa” </strong>impulsada por el Instituto de las Mujeres del Distrito Federal <strong>(InmujeresDF) </strong>el gobierno del Distrito Federal ilumina de rosa 35 monumentos  y sitios representativos de la capital.
+		   	   			</p>
+		   	   			<p>
+		   	   			    El gobierno pretende  que dicha iluminación haga conciencia entre la población sobre la importancia de la detección y atención de este padecimiento. Entre los monumentos iluminados <strong> Hogar Vida Mujer </strong> te presenta las siguientes imágenes:
+						</p>
+						<p>														
+						<br>
+						<cite title=""><a href="#">Hogar Vida Mujer, A.C. ©2015</a> <br> </cite></p>
+	   	   		</article>
+	   	</div>
+	</section>
+</div>
+
+
+											<!-- SSSSSS LLLLLL IIIIII DDDDDD EEEEEE RRRRR SSSS-->
+
+		<section>
+			<div class="container">
+				<br>	
+				<div class="col-md-12">
+					<div id="carousel-1" class="carousel slide" data-ride="carousel">
+					<!-- Indicadores Redondos-->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-1" data-slide-to="0" class="active"></li><!-- Angel -->
+							<li data-target="#carousel-1" data-slide-to="1"></li><!-- Diana -->
+							<li data-target="#carousel-1" data-slide-to="2"></li><!-- IMSS -->
+							<li data-target="#carousel-1" data-slide-to="3"></li><!-- Revolución -->
+							<li data-target="#carousel-1" data-slide-to="4"></li><!-- BellasArtes -->
+							<li data-target="#carousel-1" data-slide-to="5"></li><!-- Cibeles -->
+							<li data-target="#carousel-1" data-slide-to="6"></li><!-- FtePetroleos -->
+							<li data-target="#carousel-1" data-slide-to="7"></li><!-- SanLaz -->
+							<li data-target="#carousel-1" data-slide-to="8"></li><!-- MonNiñosH -->
+							<li data-target="#carousel-1" data-slide-to="9"></li><!-- SSPDF -->
+							<li data-target="#carousel-1" data-slide-to="10"></li><!-- Reforma -->
+						</ol>
+					<!-- Contenedor de los sliders -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active"><!-- Angel -->
+								<a class="img-responsive" data-lightbox="roadtrip" href="slider/OCCD01Angel.jpg" rel="lightbox" data-title="EL ÁNGEL DE LA INDEPENDENCIA. En Octubre la Ciudad de México iluminada de Rosa."> <img class="img-responsive" src="slider/OCCD01Angel.jpg" alt="textoanimado"  style="margin: 0; padding: 0; border: 0;"/> </a>
+								<div class="carousel-caption">
+									<h3></h3>
+									<p> </p>
+								</div>
+							</div>
+							<div class="item"><!-- Diana -->
+								<a class="img-responsive" data-lightbox="roadtrip" href="slider/OCCD02Diana.jpg" rel="lightbox" data-title="LA DIANA CAZADORA. En Octubre la Ciudad de México iluminada de Rosa."> <img class="img-responsive" src="slider/OCCD02Diana.jpg" alt="textoanimado"  style="margin: 0; padding: 0; border: 0;"/> </a>
+								<div class="carousel-caption">
+									<h3></h3>
+									<p> </p>
+								</div>
+							</div>
+							<div class="item"><!-- IMSS -->
+								<a class="img-responsive" data-lightbox="roadtrip" href="slider/OCCD03IMSS.jpg" rel="lightbox" data-title="LAS OFICINAS GENERALES DEL IMSS. En Octubre la Ciudad de México iluminada de Rosa."> <img class="img-responsive" src="slider/OCCD03IMSS.jpg" alt="textoanimado"  style="margin: 0; padding: 0; border: 0;"/> </a>
+								<div class="carousel-caption">
+									<h3></h3>
+									<p> </p>
+								</div>
+							</div>	
+							<div class="item"><!-- Revolución -->
+								<a class="img-responsive" data-lightbox="roadtrip" href="slider/OCCD04Rev.jpg" rel="lightbox" data-title="EL MONUMENTO A LA REVOLUCIÓN. En Octubre la Ciudad de México iluminada de Rosa."> <img class="img-responsive" src="slider/OCCD04Rev.jpg" alt="textoanimado"  style="margin: 0; padding: 0; border: 0;"/> </a>
+								<div class="carousel-caption">
+									<h3></h3>
+									<p> </p>
+								</div>
+							</div>
+							<div class="item"><!-- BellasArtes -->
+								<a class="img-responsive" data-lightbox="roadtrip" href="slider/OCCD05BellaArt.jpg" rel="lightbox" data-title="EL PALACIO DE LAS BELLAS ARTES. En Octubre la Ciudad de México iluminada de Rosa."> <img class="img-responsive" src="slider/OCCD05BellaArt.jpg" alt="textoanimado"  style="margin: 0; padding: 0; border: 0;"/> </a>
+								<div class="carousel-caption">
+									<h3></h3>
+									<p> </p>
+								</div>
+							</div>
+							<div class="item"><!-- Cibeles -->
+								<a class="img-responsive" data-lightbox="roadtrip" href="slider/OCCD06Cibeles.jpg" rel="lightbox" data-title="LA FUENTE DE CIBELES, COLONIA ROMA. En Octubre la Ciudad de México iluminada de Rosa."> <img class="img-responsive" src="slider/OCCD06Cibeles.jpg" alt="textoanimado"  style="margin: 0; padding: 0; border: 0;"/> </a>
+								<div class="carousel-caption">
+									<h3></h3>
+									<p> </p>
+								</div>
+							</div>
+							<div class="item"><!-- FtePetroleos -->
+								<a class="img-responsive" data-lightbox="roadtrip" href="slider/OCCD07Petr.jpg" rel="lightbox" data-title="LA FUENTE DE PETROLEOS, POLANCO. En Octubre la Ciudad de México iluminada de Rosa."> <img class="img-responsive" src="slider/OCCD07Petr.jpg" alt="textoanimado"  style="margin: 0; padding: 0; border: 0;"/> </a>
+								<div class="carousel-caption">
+									<h3></h3>
+									<p> </p>
+								</div>
+							</div>
+							<div class="item"><!-- SnLazaro -->
+								<a class="img-responsive" data-lightbox="roadtrip" href="slider/OCCD08SnLazaro.jpg" rel="lightbox" data-title="EL PALACIO LEGISLATIVO DE SAN LAZARO. En Octubre la Ciudad de México iluminada de Rosa."> <img class="img-responsive" src="slider/OCCD08SnLazaro.jpg" alt="textoanimado"  style="margin: 0; padding: 0; border: 0;"/> </a>
+								<div class="carousel-caption">
+									<h3></h3>
+									<p> </p>
+								</div>
+							</div>
+							<div class="item"><!-- MonNiñosH -->
+								<a class="img-responsive" data-lightbox="roadtrip" href="slider/OCCD09NHeroes.jpg" rel="lightbox" data-title="MONUMENTO A LOS NIÑOS HEROES, CHAPULTEPEC. En Octubre la Ciudad de México iluminada de Rosa."> <img class="img-responsive" src="slider/OCCD09NHeroes.jpg" alt="textoanimado"  style="margin: 0; padding: 0; border: 0;"/> </a>
+								<div class="carousel-caption">
+									<h3></h3>
+									<p> </p>
+								</div>
+							</div>						
+							<div class="item"><!-- SSPDF -->
+								<a class="img-responsive" data-lightbox="roadtrip" href="slider/OCCD10SSPDF.jpg" rel="lightbox" data-title="LA OFICINAS DE LA SECRETARIA DE SEGURIDAD PÚBLICA DEL D.F. En Octubre la Ciudad de México iluminada de Rosa."> <img class="img-responsive" src="slider/OCCD10SSPDF.jpg" alt="textoanimado"  style="margin: 0; padding: 0; border: 0;"/> </a>
+								<div class="carousel-caption">
+									<h3></h3>
+									<p> </p>
+								</div>
+							</div>
+							<div class="item"><!-- Reforma -->
+								<a class="img-responsive" data-lightbox="roadtrip" href="slider/OCCD11Reforma.jpg" rel="lightbox" data-title="LOS CAMELLONES DE AV. PASEO DE LA REFORMA. En Octubre la Ciudad de México iluminada de Rosa."> <img class="img-responsive" src="slider/OCCD11Reforma.jpg" alt="textoanimado"  style="margin: 0; padding: 0; border: 0;"/> </a>
+								<div class="carousel-caption">
+									<h3></h3>
+									<p> </p>
+								</div>
+							</div>						
+
+						</div><!-- contenedor div class carousel inner -->
+
+					<!-- Controles ATRÁS ADELANTE -->
+						<!-- ATRÁS Izquierdo -->
+						<a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Anterior</span>
+						</a>
+						<!-- ADELANTE Derecho -->
+						<a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="next"></span>
+							<span class="sr-only">Siguiente</span>
+						</a>
+					</div><!-- div id carousel-1 -->
+				</div><!-- clas col.md.12 -->
+			</div><!-- div class container -->
+		</section>            	
+
+
+											<!--  NNNNNN OOOOOOO TTTT IIII CCCC IIII AAAA SSSSS -->
+
+		<section>
+	   	<div class="container">
+	   		<br>
+   	   		<h2>Noticias</h2>
+   	   			<p></p>
+   	   	</div>
+   	   	</section>
+
+		<div class="container 3">
+			<br>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img src="slider/SD19Oct2.jpg" alt="Miniaturas19Oct" style= "max-height: 189px;">
+						<div class="caption">
+							<h4> 19 Octubre. <small>Día Internacional de la Lucha contra el cáncer de mama.</small></h4>
+							<p> </p>
+							<a href="OC-19Oct.html" class="btn btn-thumbnail">Leer más... </a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img src="slider/SDRosa.jpg" alt="MiniaturasSDRosa" style= "max-height: 189px;">
+						<div class="caption">
+							<h4> #Yo soy Rosa! <small>En Octubre ¡Juntos contra el cáncer de mama!</small></h4>
+							<p> </p>
+							<a href="PU-SoyRosa.html" class="btn btn-thumbnail">Leer más... </a>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix visible-sm-block"></div><!-- clearfix limpia errores-->
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img src="slider/SDmasto.jpg" alt="MiniaturasMasto" style= "max-height: 189px;">
+						<div class="caption">
+							<h4> Mastografías Gratis. <small>Aprovecha la campaña de la CDMX.</small></h4>
+							<p> </p>
+							<a href="CA-Mastografia.html" class="btn btn-thumbnail">Leer más... </a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="thumbnail">
+						<img src="imagenes/evento/des02.jpg" alt="MiniaturasIPN" style= "max-height: 189px;">
+						<div class="caption">
+							<h4> Evento 2013. <small>Así interactuamos con nuestras seguidoras. </small></h4>
+							<p> </p>
+							<a href="EV-2013.html" class="btn btn-thumbnail">Leer más... </a>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix visible-md-block"></div><!-- clearfix limpia errores-->
+			</div>
+		</div>
+
+										<!-- AAAA CCCC TTTT IIII VVVV IIII DDDD AAAA DDDD EEEE SSSSS -->
+
+		<section>
+		   	<div class="container">
+	   	   		<h2>Lo más reciente...</h2>
+	   	   			<p></p>
+	   	   		<div class="row-serv">
+		   	 		<div class="col-md-3 col-campanas text-justify">
+			  			<h4><a href='OC-Dep.html'><img src="Imagenes/logo.campañas.png" alt="" class="img-responsive img-circle img-center" style="max-width: 200px; max-weight: 200px; display: inline-block;" title="El contenido a revisar es el más reciente." /> <br><br><br> Campañas Rosas </a><span class="label label-art">Nuevo</span></h4>
+			  				<p>Aquí encontraras lo más reciente sobre campañas de apoyo a la población con problemas de cáncer de mama.</p>
+					</div><div class="clearfix visible-sm-block"></div><!-- clearfix limpia errores-->
+					<div class="col-md-3 col-eventos text-justify">
+			  			<h4><a href='EV-2014.html'><img src="Imagenes/logo.eventos.png" alt="" class="img-responsive img-circle img-middle" style="max-width: 200px; max-weight: 200px; display: inline-block;" title="El contenido a revisar es el más reciente." />  <br><br><br> Eventos </a><span class="label label-art">Nuevo</span></h4>
+			  				<p>Podrás visualizar los recientes eventos que hemos realizado conmemorativos de Hogar Vida Mujer, A. C.</p>
+			  		</div><div class="clearfix visible-sm-block"></div><!-- clearfix limpia errores-->
+					<div class="col-md-3 col-art text-justify">
+			  			<h4><a href='CM-Factores.html'><img src="Imagenes/logo.art.png" alt="" class="img-responsive img-circle img-middle" style="max-width: 200px; max-weight: 200px; display: inline-block;" title="El contenido a revisar es el más reciente." />  <br><br><br> Artículos </a><span class="label label-art">Nuevo</span></h4>
+			  				<p>En este apartado podrás encontrar artículos y publicaciones recientes sobre el Cáncer de mama.</p>
+					</div><div class="clearfix visible-sm-block"></div><!-- clearfix limpia errores-->
+		   	 		<div class="col-md-3 col-videos text-justify">
+			  			<h4><a href='https://www.youtube.com/watch?v=HfGjaFhuucw'><img src="Imagenes/logo.play.png" alt="" class="img-responsive img-circle img-middle" style="max-width: 200px; max-weight: 200px; display: inline-block;" title="El contenido a revisar es el más reciente." />  <br><br><br> Multimedia </a><span class="label label-art">Nuevo</span></h4>
+			  				<p> En esta sección te viculamos al canal de videos de la  asociación. ¡Echáles un ojito!</p>
+					</div>
+				</div>
+   	   		</div>
+		</section>
+									<!-- PPPP IIII EEEEE     DDDD EEEEE     PPPP AAAA GGGG IIII NNNNN AAAAA -->
+		<!-- Pie de pagina -->
+		<br>
+		<footer>
+		  	<div class="row-foot">
+   		  			<h4 title="Derechos Reservados 2015">Hogar Vida Mujer, A.C. ©2015 </h4>
+			</div>
+
+			<div id="piepag" class="container-fluid">
+				<div class="row-footer">
+				
+				<!-- Lado Izquierdo -->	
+					<div class="col-xs-12 col-sm-6 col-md-5">
+				    	<p class="Contact">
+                   			<pseudo: before> 
+				      			<span class="glyphicon glyphicon-share-alt" aria-hidden="true" style="padding:5px; font-style:italic;"> 
+			    					Contáctanos 
+				      			</span>
+				    	</p>
+		      				<i class="correo">
+                				<pseudo: before> 
+	                			<span class="glyphicon glyphicon-envelope" aria-hidden="true" style="padding:5px"> 
+    	                			Correo Electrónico:
+    	                		</span>
+    	                		<p>	
+    	                			<a href="mailto:hogarvidamujerac@hotmail.com" title="Envíanos un email" class="email">
+    	                				hogarvidamujerac@hotmail.com 			      		
+            	        			</a>
+								</p> 
+	                		</i> 
+				      		<i class="direccion">
+    	                		<pseudo: before> 
+    	                		<span class="glyphicon glyphicon-home" aria-hidden="true" style="padding:2px" title="Nuestra dirección"> 
+    	                			Dirección:		
+    	                		</span>
+				      			<p class="calles"> 
+	    	                		Valle Florido Núm. 178, Colonia Valle de Aragon 1a. Sección, Mpio. Nezahualcóyotl, Estado de México C.P. 57100 
+    	                		</p>						
+    	                	</i> 
+					</div> <!-- col-xs-12 lado izquierdo -->
+				</div><!-- row-footer -->
+
+				<!-- Lado Derecho -->	
+					<div class="col-xs-12 col-sm-6 col-md-5">
+
+				      		<i class="disenoweb">
+				      			<pseudo: before> 
+				      			<span class="glyphicon glyphicon-pushpin" aria-hidden="true" style="padding:5px"> 
+				      				Website diseñada por:
+				      			</span>
+				      			<p>
+				      				<a href="mailto:manuelzambrano_90@hotmail.com" title="José Manuel Zambrano Barragan">
+									
+										<i class="diseno1">	<pseudo: before> 
+    	                					<span class="glyphicon glyphicon-user" aria-hidden="true" style="padding:0px"> 
+    	                						Zambrax
+    	              	                	</span>
+    	                				</i> 
+    	                			</a>
+    	                		
+    	                			<span class="y">
+    	                				&
+    	                			</span>
+				      			
+				      				<a href="mailto:ozkr_sh@hotmail.com" title="Oscar Sánchez Hernández">
+										<i class="diseno2">	<pseudo: after> 
+											<span class="glyphicon glyphicon-user" aria-hidden="true" style="padding:10px"> 
+    	        	        					Ozkr sh
+    	    	            					<title> Oscar Sánchez Hernández </title>
+    		                				</span>
+    		                			</i> 
+	    	                		</a>
+    	                			<span class="pinc">
+										by PINC 2015 ©
+    	                			</span>
+                    			</p>
+                    		</i>
+                    		<p class="Follow">	
+                    			<pseudo: before> 
+				      			<span class="glyphicon glyphicon-check" aria-hidden="true" style="padding:5px; font-style:italic;"> 
+				      				Siguenos (Follow us)
+				      			</span>
+					    	</p>
+
+                       		<ul class="social-follow">
+                                		<li>
+                                   			<a href="https://www.facebook.com/Hogar-Vida-Mujer-AC-380704961965608/" title="LIKE en Facebook"> 
+                                				<i class="fa fa-facebook">
+                                					<img src="imagenes/LFB.png" style="width:10px; height:17px"> <pseudo: before>
+                                				</i>
+                                			</a>
+                                		</li>
+
+                                		<li>
+                                			<a href="https://twitter.com/HogarVidaMujer" title="FOLLOW en Twitter">
+                         	         			<i class="fa fa-twitter">
+                                					<img src="imagenes/LT.png" style="width:10px; height:17px"> <pseudo: before>
+                                				</i>
+                                			</a>
+                                		</li>
+                                		<li>
+                                			<a href="https://plus.google.com/109899728249921038736/about" title="ÚNETE en Google Plus">
+                                				<i class="fa fa-linkedin">
+                                					<img src="imagenes/LG.png" style="width:20px; height:20px"> <pseudo: before>
+                                				</i>
+                                			</a>
+                                		</li> 
+                                		<li>
+                                			<a href="https://www.youtube.com/channel/UCo-dImSrbQTZjKYs_J8B5Zg" title="SUSCRIBIRSE en Youtube">
+                                				<i class="fa fa-dribbble">
+                                					<img src="imagenes/LY.png" style="width:20px; height:20px"> <pseudo: before>
+                                				</i>
+                                			</a>
+                                		</li>
+                              </ul>
+                    		<p><br></p>
+					</div><!-- lado derecho -->
+
+				<!-- Lado Derecho MoñoRosa-->	
+
+					<div class="hidden-xs hidden-sm col-md-1">
+						<img src="imagenes/monorosa100x200.png"class="img-responsive" alt="textoanimado" style="margin: 0; padding: 0; border: 0;">
+			      		<p class="Textmono" title="Contra el Cáncer de mama todos nos unimos a la lucha"> 
+			      			Somos Rosas!
+                   		</p>
+					</div>
+				
+		  	</div><!-- div id="piepag" -->
+		</footer>	
+
+		<!-- 20 efectos lightbox -->
+		<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+		<!-- 04 AGREGAR JQUERY, para que bootstrap trabaje -->
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<!-- 03.2 Agregando el script de Bootstrap --> 
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</body>
+</html>

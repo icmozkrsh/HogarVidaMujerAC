@@ -1,0 +1,14 @@
+.breadcrumb-migas{
+	background: #DDA0DD; /* color Plum */
+	font-weight: normal;
+}
+
+.breadcrumb-migas li a{
+	color:white;
+	font-weight: normal;
+}
+
+.breadcrumb-migas li a:hover{
+	color: #4B0082; /* color Indigo */
+	font-weight: bold;
+}

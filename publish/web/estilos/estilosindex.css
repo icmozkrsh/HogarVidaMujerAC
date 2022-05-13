@@ -1,0 +1,28 @@
+.alert-titulos
+	{
+		background:magenta;
+		color: white;
+		font-weight: bold;
+		font-family: "Bradley Hand ITC";
+		font-size: 22px;
+	}
+.alert-titulos:hover
+	{
+		background: #9932CC; /* color DarkOrchid */
+		color: white;
+		font-weight: bold;
+		font-family: "Bradley Hand ITC";
+		font-size: 22px;
+	}
+/*header{
+	/*background: #FF00FF;
+	font-family: "Bradley Hand ITC";
+	font-style: "black";
+	color:#FF00FF;
+	}
+*/
+/* #navegar
+{
+border-color: #FF00FF;
+}
+*/

@@ -1,0 +1,188 @@
+header
+    {
+      display: block;     
+      font-family: "Arial";
+      font-style: "black";
+    }
+
+.top-bar 
+    {
+      padding: 10px 0;
+      background: #FF00FF;/* Color fondo barra */
+      /*border-bottom: 1px solid #222;*/
+      line-height: 28px;
+    }
+
+/*En el contenedor (container)*//* <pseudo: before> */
+.container:before,
+.container:after,
+    {
+      display: table;
+      content: "";
+    }
+
+/*En la fila (row)*//* <pseudo: before> */
+.row:before,
+.row:after,
+    {
+      display: table;
+      content: "";
+    }
+/*En la clase columna mediana y extrapequeña (col-sm)(col-xs)*/
+.col-sm-6,
+.col-xs-4
+    {
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+/*En la clase "top-number" se coloca el color blanco del texto*/
+.top-number
+    {
+      color: #FFFFFF;
+      font-weight: bold;
+      height: 20px;
+      font-size: 15px;
+    }
+/*En la clase "top-number" para los parrafos <p>*/
+.top-number p
+    {
+      margin: 0;
+      
+    }
+/*dentro la clase "top-number" en la clase "fa fa-phone-square" */
+.fa
+  {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  } 
+
+.fa-phone-square:before
+  {
+      content: "";
+      padding: 0;
+      margin: 0;
+  } 
+
+/*para las redes sociales y las clases "social" y la clase "social-share" */
+.social
+  {
+      text-align: right;
+  }
+
+.social-share
+  {
+      display: inline-block;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+.ul
+  {
+      -webkit-margin-before: 1em;
+      -webkit-margin-after: 1em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px;
+      -webkit-padding-start: 40px;
+  }
+
+/* para los elementos "ul" dentro de "a" en la clase "social-share" */
+ul.social-share li 
+  {
+    display: inline-block;
+  }
+
+ul.social-share li a {
+  display: inline-block;
+  color: #fff;
+  background: rgba(255,105,255,90);/* Color del fondo de los iconos */
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+a 
+  {
+    text-decoration: none;
+  }
+
+ul.social-share li a:hover 
+  {
+    background: #9932CC; /* color DarkOrchid */
+    color: #fff;
+  }
+
+ul.social-share li a:active 
+  {
+    background: #DC143C; /* color Crimson (Carmesin) */
+    color: #fff;
+  }
+
+/* Estilos para la barra de busqueda (Search) */
+/* Clase "search" */
+
+#header .search{
+  display: inline-block;
+}
+/* Clase "search-form" */
+input.search-form
+  {
+      background: rgba(255,145,255,90);/* Color del fondo del input search */
+      border: 0 none;
+      width: 60px;
+      padding: 0 10px;
+      color: #FFF;
+      -webkit-transition: all 400ms;
+      -moz-transition: all 400ms;
+      -ms-transition: all 400ms;
+      -o-transition: all 400ms;
+      transition: all 400ms;
+  }
+
+            /* controles */
+input.search-form::-webkit-input-placeholder
+      {
+        color: rgba(255,255,255,10);/* Color del fondo del input search */
+      }
+
+input.search-form:hover::-webkit-input-placeholder 
+      {
+        color: #fff;
+      }
+
+input.search-form:hover 
+      {
+        width: 175px;
+      }
+
+
+
+.search i {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,201 @@
+
+footer {
+	background: #9932CC; /* color DarkOrchid */
+	
+	   }
+
+.row-foot h4{
+	vertical-align: middle;
+	font-family: bradley hand itc;
+	font-weight: bold;
+	font-size:1.5em;
+	font-variant: small-caps;
+	color:white;
+	text-align: center;
+			}
+.row-foot h4:hover{
+	font-family: bradley hand itc;
+	font-weight: bold;
+	color: yellow;
+			}
+
+.Contact{
+	color: white;
+	text-align: center;
+	font-style: italic;
+	font-size: 11px;
+		}
+
+#piepag{
+	background: black;
+		}
+
+.correo{
+	font-size: 13px;
+	color:magenta;
+	margin: 0; 
+	border: 0;
+	vertical-align: middle;
+	text-align: justify;
+		}
+
+.email{
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	color:magenta;
+	margin: 0; 
+	border: 0;
+	vertical-align: middle;
+	text-align: justify;
+		}
+.email:hover {
+	color:white;
+	margin: 0; 
+	border: 0;
+	vertical-align: middle;
+	text-align: justify;
+		}
+
+.direccion{
+	font-size: 13px;
+	color:magenta;
+	margin: 0; 
+	border: 0;
+	vertical-align: middle;
+	text-align: center;
+		}
+
+
+.calles{
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	color:magenta;
+	margin: 0; 
+	border: 0;
+	vertical-align: middle;
+	text-align: justify;
+		}
+.calles:hover {
+	color:yellow;
+	margin: 0; 
+	border: 0;
+	vertical-align: middle;
+	text-align: justify;
+		}
+
+.glyphicon-pushpin{
+	color: white;
+	font-size: 11px;
+	font-style: italic;
+	text-align: right;
+	vertical-align: top;
+		  }
+
+.disenoweb{
+	font-size: 13px;
+	font-weight: normal;
+	color:white;
+	vertical-align: top;
+			  }	
+
+.diseno1{
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	color:magenta;
+	vertical-align: top;
+	text-align: left;
+		}
+.diseno1:hover{
+	font-weight: 15px;
+	color:red;
+	vertical-align: top;
+	text-align: left;
+		}
+
+.y{
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	color:magenta;
+	vertical-align: middle;
+	text-align: left;
+		}
+
+.diseno2{
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	color:magenta;
+	vertical-align: top;
+	text-align: left;
+		}
+.diseno2:hover{
+	font-weight: 15px;
+	color:red;
+	vertical-align: top;
+	text-align: left;
+		}
+
+.pinc{
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	color:magenta;
+	vertical-align: middle;
+	text-align: left;
+		}
+
+.Follow{
+	font-style: italic;
+	color: white;
+	vertical-align: top;
+	text-align: left;
+	font-size: 11px;
+		}
+
+
+.social-follow
+  {
+      display: inline-block;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+
+
+ul.social-follow li 
+  {
+    display:inline-block;
+  }
+
+ul.social-follow li a {
+  display: inline-block;
+  color: #fff;
+  background: rgba(255,105,255,90);/* Color del fondo de los iconos */
+  width: 75px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 2px;
+}
+
+ul.social-follow li a:hover 
+  {
+    background: #9932CC; /* color DarkOrchid */
+    color: #fff;
+  }
+
+ul.social-follow li a:active 
+  {
+    background: #DC143C; /* color Crimson (Carmesin) */
+    color: #fff;
+  }
+
+.Textmono{
+	color: magenta;
+	font-size: 11px;
+}

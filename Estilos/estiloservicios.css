@@ -1,0 +1,97 @@
+.container h2{
+	font-family: bradley hand itc;
+	font-weight: bold;
+	font-size:3em;
+	font-variant: small-caps;
+	color:#FF00FF ;
+	text-align: center;
+		}
+.container h2:hover{
+	font-family: bradley hand itc;
+	font-weight: bold;
+	color:#8B008B ;
+		}
+.col-campanas{
+	min-width: 100px;
+	min-height: 100px;
+	font-weight: bold;
+	}
+
+.col-eventos{
+	min-width: 100px;
+	min-height: 100px;
+	font-weight: bold;
+		}
+
+.col-art{
+	min-width: 100px;
+	min-height: 100px;
+	font-weight: bold;
+		}
+
+.col-videos{
+	min-width: 100px;
+	min-height: 100px;
+	font-weight: bold;
+		}
+
+/* CAMPAÑAS */
+.col-campanas h4{
+	padding: 2em 0 1em;
+	text-align: center;
+}
+.col-campanas h4 a{
+	font-weight:bold;
+	font-size:1.1em;
+	color:#8B008B; /* Dark Magenta */
+}
+.col-campanas h4 a:hover{
+	color:#FF00FF; /* Magenta */
+	text-decoration:none;
+}
+
+/* EVENTOS */
+.col-eventos h4{
+	padding: 2em 0 1em;
+	text-align: center;
+}
+.col-eventos h4 a{
+	font-weight:bold;
+	font-size:1.1em;
+	color:#8B008B; /* Dark Magenta */
+}
+.col-eventos h4 a:hover{
+	color:#FF00FF; /* Magenta */
+	text-decoration:none;
+}
+
+/* ARTICULOS */
+.col-art h4{
+	padding: 2em 0 1em;
+	text-align: center;
+}
+.col-art h4 a{
+	font-weight:bold;
+	font-size:1.1em;
+	color:#8B008B; /* Dark Magenta */
+}
+.col-art h4 a:hover{
+	color:#FF00FF; /* Magenta */
+	text-decoration:none;
+}
+
+/* VIDEOS */
+.col-videos h4{
+	padding: 2em 0 1em;
+	text-align: center;
+}
+.col-videos h4 a{
+	font-weight:bold;
+	font-size:1.1em;
+	color:#8B008B; /* Dark Magenta */
+}
+.col-videos h4 a:hover{
+	color:#FF00FF; /* Magenta */
+	text-decoration:none;
+}
+

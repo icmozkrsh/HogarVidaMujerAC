@@ -1,0 +1,137 @@
+/*--------------------------------------------------------------------------------- */
+/*------------------------Boton Menú para Medios portables ------------------------ */
+/*--------------------------------------------------------------------------------- */
+
+/* Estilos estado Normal */
+.navbar-menunavegar 
+    {
+      /* boton */       
+      background: #FFC0CB; /* Pink */  
+      border-radius: 7px 7px 7px 7px;
+      -moz-border-radius: 7px 7px 7px 7px;
+      -webkit-border-radius: 7px 7px 7px 7px;
+      border-color: #9932CC; /* color DarkOrchid */
+      border: 2px solid;
+	 }
+
+/* Estilos del estado :hover del botón */
+.navbar-menunavegar:hover 
+   {
+	    /* boton */ 
+  	  background: #9932CC; /* color DarkOrchid */
+      border-color: #000000;
+      border: 3px solid;    
+      border-radius: 7px 7px 7px 7px;
+      -moz-border-radius: 7px 7px 7px 7px;
+      -webkit-border-radius: 7px 7px 7px 7px;
+	 }	
+
+/* Estilos del estado :active del botón */
+.navbar-menunavegar:active
+   {
+  		/* boton */ 
+  	 background: #DC143C; /* color Crimson (Carmesin) */
+	 }
+.icon-bar
+    {
+     background: white;
+    }
+
+
+/*--------------------------------------------------------------------------------- */
+/*----------------------Barra Inferior de Menú para PC <nav> ---------------------- */
+/*--------------------------------------------------------------------------------- */
+
+.navbar-header
+/* Estilos estado Normal */
+    {
+      /* boton */ 
+      color:white;
+      font-family: Arial;
+      font-weight: bold;
+    }
+
+.navbar-barrbtndespl 
+/* Estilos estado Normal */
+    {
+      /* boton */ 
+      color:white;
+      font-family: Arial;
+      font-weight: bold;
+      background: magenta; /* magenta */  
+    }
+
+/*--------------------------------------------------------------------------------- */
+/*-------------- Botones de la Barra Inferior de Menú para PC <nav> --------------- */
+/*--------------------------------------------------------------------------------- */
+
+/* Estilos estado Normal */
+.navbar-btndespl 
+    {
+      color:white;
+      font-style:bold;
+    }
+
+.navbar-btndespl:hover
+    {
+      color: black;
+      background: #9932CC; /* color DarkOrchid */
+      font-family: Arial;
+      font-style: bold;
+    }
+
+
+/*--------------------------------------------------------------------------------- */
+/*-------- Botones en el submenú de la Barra Inferior de Menú para PC <nav> ------- */
+/*--------------------------------------------------------------------------------- */
+
+.submen
+{
+  /* texto*/
+  color: white;
+  font-style: bold;
+  /* color de boton */ 
+  background-color: #FFE4E1;
+}
+
+
+
+ 
+/* Estilos del estado :hover del botón */
+
+.item,
+.item:hover,
+.item:active 
+
+.item
+{
+  /* color de texto*/
+  color: white;
+  /* color de boton */ 
+  background-color: #FFE4E1;
+  font-style: "black";
+}
+
+.item:hover {
+  background-position: 0 -15px;
+  /* color de texto*/
+  color: black;
+  font-style: "black";
+
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  /* color de boton */ 
+  background-color: #BA55D3; /* color Medium Orchid*/
+}	
+
+/* Estilos del estado :active del botón */
+
+.item:active {
+  background-position: 0 -15px;
+  /* color de texto*/
+  color: white;
+  font-style: "black";
+
+    /* color de boton */ 
+  background-color: #800080; /* color Purple*/
+}
+
